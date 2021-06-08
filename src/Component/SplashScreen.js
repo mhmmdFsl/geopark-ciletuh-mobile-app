@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import {useDispatch} from 'react-redux'
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { addToken } from '../Services/tokenSlice';
 
 const SplashScreen = ({ navigation }) => {

@@ -49,6 +49,7 @@ const style = StyleSheet.create({
     },
     imgTitle : {
         color: '#fff',
-        fontSize: 15
+        fontSize: 15,
+        fontFamily: 'OpenSans-Regular'
     }
 })

@@ -23,7 +23,7 @@ const HomeScreen = () => {
 
     return(
             <View style={style.wrapper}>
-                <Text style = {style.title}>Lokasi Anda</Text>
+                <Text style = {style.title}>Ciletuh Mobile App</Text>
                 <MapView
                     style={style.map}
                     provider={PROVIDER_GOOGLE}
@@ -56,7 +56,7 @@ const style = StyleSheet.create({
         paddingLeft: 15,
         paddingRight: 15,
         paddingTop: 15,
-        backgroundColor: '#fff'
+        backgroundColor: '#fff',
     },
     container: {
     },
@@ -65,7 +65,9 @@ const style = StyleSheet.create({
         marginBottom: 15,
     },
     title: {
-        fontSize: 16,
-        marginBottom: 15
+        fontSize: 18,
+        marginBottom: 15,
+        fontFamily: 'OpenSans-Bold',
+        letterSpacing: 1.5
     }
 })
